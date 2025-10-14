@@ -51,7 +51,7 @@
     }
     .wrap{max-width:960px; margin:0 auto; padding:6rem 1.25rem;}
     header{display:flex; align-items:center; gap:.8rem; margin-bottom:3rem}
-    .emblem{width:54px; height:54px}
+    .emblem{width:clamp(88px,12vw,144px);height:auto;display:block}
     .wordmark{ font-family:"Barlow Condensed", system-ui, sans-serif; letter-spacing:.06em; font-weight:700; font-size:1.9rem }
 
     .badge{ display:inline-block; font-size:.75rem; letter-spacing:.12em; text-transform:uppercase; color:var(--muted);
@@ -77,7 +77,7 @@
       <img class="emblem" src="logo.png" alt="Euler logo" width="72" height="72"/>
     </header>
 
-    <span class="badge">Coming out of stealth</span>
+    <span class="badge">Quiet build phase</span>
     <h1>The future of power optimization</h1>
     <p class="sub">
       We turn electrical power into <strong>planned mission fuel</strong> — predictive planning, EMCON‑aware dispatch,
@@ -109,4 +109,3 @@
   </script>
 </body>
 </html>
-
