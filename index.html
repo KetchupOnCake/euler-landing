@@ -58,15 +58,7 @@
             border:1px solid #2a2e38; padding:.35rem .6rem; border-radius:999px; }
 
     h1{ font-family:"Barlow Condensed", system-ui, sans-serif; font-weight:700; line-height:1; margin:.6rem 0 1rem; font-size:clamp(2.8rem,6vw,5rem); letter-spacing:.03em; text-transform:uppercase; }
-    .sub{ color:var(--muted); font-size:clamp(1.05rem,2.2vw,1.25rem); max-width:56ch; }
-
-    .cta{ margin-top:2.2rem; display:flex; gap:.8rem; flex-wrap:wrap }
-    .btn{ appearance:none; border:1px solid #2f3642; background:transparent; color:var(--fg);
-          padding:.85rem 1.1rem; border-radius:14px; font-weight:600; letter-spacing:.04em; cursor:pointer; text-decoration:none; }
-    .btn.primary{ border-color:#5b6a86; background:linear-gradient(180deg,#111827,#0b0f18); box-shadow:0 0 0 1px #202838 inset; }
-    .btn:hover{ filter:brightness(1.1) }
-
-    .bullets{ display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:1rem; margin:3rem 0 }
+    .sub{ color:var(--muted); font-size:clamp(1.05rem,2.2vw,1.25rem); max-width:56ch; }.bullets{ display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:1rem; margin:3rem 0 }
     .card{ border:1px solid #1f2430; border-radius:18px; padding:1rem 1rem 1.1rem; background:linear-gradient(180deg,rgba(255,255,255,0.03),rgba(255,255,255,0.01)); }
     .card h3{ font-family:"Barlow Condensed"; text-transform:uppercase; letter-spacing:.08em; margin:.2rem 0 .5rem; font-size:1.05rem }
     .card p{ color:var(--muted); margin:0; font-size:.95rem; line-height:1.5 }
@@ -82,15 +74,7 @@
   <div class="bgFX" aria-hidden="true"></div>
   <div class="wrap">
     <header>
-      <!-- Minimal inline SVG mark: rounded‑square "E" with up‑right arrow (energy → optimized output) -->
-      <svg class="emblem" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Euler emblem">
-        <path d="M10 20c0-5.523 4.477-10 10-10h14c5.523 0 10 4.477 10 10v8" stroke="white" stroke-width="4" stroke-linecap="round"/>
-        <path d="M12 32h22" stroke="white" stroke-width="4" stroke-linecap="round"/>
-        <path d="M12 44c0 5.523 4.477 10 10 10h8" stroke="white" stroke-width="4" stroke-linecap="round"/>
-        <path d="M36 38l14-14" stroke="white" stroke-width="4" stroke-linecap="round"/>
-        <path d="M48 14h10v10" stroke="white" stroke-width="4" stroke-linecap="round"/>
-      </svg>
-      <div class="wordmark" aria-label="Euler wordmark">EULER</div>
+      <img class="emblem" src="logo.png" alt="Euler logo" width="72" height="72"/>
     </header>
 
     <span class="badge">Coming out of stealth</span>
@@ -99,12 +83,6 @@
       We turn electrical power into <strong>planned mission fuel</strong> — predictive planning, EMCON‑aware dispatch,
       and edge decision aids that sustain tempo under pressure.
     </p>
-
-    <div class="cta">
-      <a class="btn primary" href="mailto:hello@eulerinc.us?subject=Euler%20Briefing">Request the executive brief</a>
-      <a class="btn" href="mailto:hello@eulerinc.us?subject=Careers">Careers / experts</a>
-    </div>
-
     <section class="bullets" aria-label="What we do">
       <div class="card">
         <h3>Plan</h3>
@@ -131,3 +109,4 @@
   </script>
 </body>
 </html>
+
